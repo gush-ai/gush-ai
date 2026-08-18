@@ -1,0 +1,25 @@
+# File: .github/workflows/phpcs.yml
+name: PHP Code Standards
+
+on: [push, pull_request]
+
+jobs:
+  phpcs:
+    name: PHP CodeSniffer
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+        tools: composer, phpcs
+
+    - name: Install WordPress Coding Standards
+      run: |
+        composer global require wp-coding-standards/wpcs
+        phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs
+
+    - name: Run PHPCS
+      run: phpcs --standard=WordPress ./includes/
