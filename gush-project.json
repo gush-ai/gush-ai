@@ -1,0 +1,23 @@
+{
+  "name": "gush-ai-ecommerce-chatbot-wordpress-v1-0-0",
+  "display_name": "gush-ai-ecommerce-chatbot-wordpress-v1.0.0",
+  "type": "static-site",
+  "version": "1.0.0",
+  "description": "Imported Archive Project",
+  "author": "Developer",
+  "license": "MIT",
+  "generated_by": "Gush AI Codex V10.5",
+  "generated_at": "2026-08-18T10:06:11.275Z",
+  "files": [
+    ".github/README.md",
+    ".github/CONTRIBUTING.md",
+    ".github/ISSUE_TEMPLATE/bug_report.md",
+    ".github/workflows/phpcs.yml",
+    ".github/workflows/js-lint.yml",
+    ".gitignore",
+    "CHANGELOG.md",
+    "LICENSE",
+    "composer.json",
+    "package.json"
+  ]
+}
