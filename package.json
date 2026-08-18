@@ -1,0 +1,24 @@
+# File: package.json
+{
+    "name": "gush-ai-ecommerce-chatbot",
+    "version": "1.0.0",
+    "description": "Intercom-style AI shopping assistant for WooCommerce",
+    "main": "gush-ai-ecommerce-chatbot.php",
+    "scripts": {
+        "lint": "eslint assets/js/",
+        "build": "npm run lint && npm run minify",
+        "minify": "uglifyjs assets/js/chat-widget.js -o assets/js/chat-widget.min.js && uglifyjs assets/js/admin-dashboard.js -o assets/js/admin-dashboard.min.js"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0",
+        "uglify-js": "^3.13.4"
+    },
+    "keywords": [
+        "woocommerce",
+        "ai-chatbot",
+        "intercom",
+        "shopping-assistant"
+    ],
+    "author": "Gush AI",
+    "license": "GPL-2.0-or-later"
+}
