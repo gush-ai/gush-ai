@@ -1,0 +1,21 @@
+# File: composer.json
+{
+    "name": "gush-ai/gush-ai-ecommerce-chatbot",
+    "description": "Intercom-style AI shopping assistant for WooCommerce",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "wordpress/core": ">=6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GushAI\\": "includes/"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "includes/": ["type:wordpress-plugin"]
+        }
+    },
+    "license": "GPL-2.0-or-later"
+}
