@@ -7,7 +7,7 @@
   "author": "Developer",
   "license": "MIT",
   "generated_by": "Gush AI Codex V10.5",
-  "generated_at": "2026-09-05T18:38:29.201Z",
+  "generated_at": "2026-09-05T18:51:05.725Z",
   "files": [
     "provider-documentation/payment.md",
     "provider-documentation/HOW-TO-BUILD-A-PROVIDER.md",
@@ -21,6 +21,8 @@
     "provider-documentation/store.md",
     "provider-documentation/yarngpt.md",
     "provider-documentation/wordpress-gateway.md",
-    "provider-documentation/bridge.md"
+    "provider-documentation/bridge.md",
+    "gush-project.json",
+    ".gitignore"
   ]
 }
