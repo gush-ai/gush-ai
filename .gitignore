@@ -1,23 +1,6 @@
-# File: .gitignore
-# WordPress
-wp-content/
-wp-config.php
-wp-config-sample.php
-
-# System Files
-.DS_Store
-.idea/
-.vscode/
-
-# Node
 node_modules/
-npm-debug.log
-
-# Composer
 vendor/
-composer.phar
-composer.lock
-
-# Environment
 .env
-.env.local
+*.log
+__pycache__/
+.DS_Store
